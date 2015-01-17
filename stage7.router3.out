@@ -1,0 +1,53 @@
+router: 3, pid: 2520, port: 44365 IP: 192.168.203.2
+pkt from port: 33402, length: 19, contents: 0x6501043560376267303565356231623b32313a
+fake-diffie-hellman, new circuit incoming: 0x401, key: 3560376267303565356231623b32313a
+pkt from port: 33402, length: 19, contents:0x620104ba90f317f0cbc05777daff2badfbfdcd
+new extend circuit: incoming: 0x401, outgoing: 0x301, at 65535
+pkt from port: 33402, length: 67, contents: 0x610104c855f31f1fb5847fb7b1a13740771cb86d4d62cc587fb82f41c8324377559c1406f4cc557c1bc4755f4ce8238c9c14594eaa9be8268caab664dceb1fa5f8
+outgoing TCP packet, circuit incoming: 0x401, incoming src IP/port:0.0.0.0:55372, outgoing src IP/port: 192.168.203.2:55372, dst IP/port: 128.9.160.91:80, seqno: 3652978020, ackno: 0
+incoming TCP packet, src IP/port: 128.9.160.91:80, dst IP/port: 192.168.203.2:55372, seqno: 246819331, ackno: 16777216, outgoing circuit: 0x401
+pkt from port: 33402, length: 51, contents: 0x6101042aeb80d7944a85f7d62335c1eb46fd7c6a83de1de316ed39916276ca81ec2aa38421176e93528449e22873be7e268
+outgoing TCP packet, circuit incoming: 0x401, incoming src IP/port:0.0.0.0:55372, outgoing src IP/port: 192.168.203.2:55372, dst IP/port: 128.9.160.91:80, seqno: 3652978021, ackno: 16777216
+pkt from port: 33402, length: 51, contents: 0x610104a2c58d7d9185e521a9d7e353f352032e86f6c629215aa3b933697fe78e712274b25652b6f1c91fe30831a84396cb8
+outgoing TCP packet, circuit incoming: 0x401, incoming src IP/port:0.0.0.0:55372, outgoing src IP/port: 192.168.203.2:55372, dst IP/port: 128.9.160.91:80, seqno: 3652978021, ackno: 16777216
+pkt from port: 33402, length: 51, contents: 0x6101041d7d247116c14b57faf5e9dc38d9c3dcdcbe57eb4eeccbeb94f6fde78398f15a5cc4ec597687a76ffc01dfa6a932df3
+outgoing TCP packet, circuit incoming: 0x401, incoming src IP/port:0.0.0.0:55372, outgoing src IP/port: 192.168.203.2:55372, dst IP/port: 128.9.160.91:80, seqno: 3652978026, ackno: 16777216
+incoming TCP packet, src IP/port: 128.9.160.91:80, dst IP/port: 192.168.203.2:55372, seqno: 246819332, ackno: 16777216, outgoing circuit: 0x401
+incoming TCP packet, src IP/port: 128.9.160.91:80, dst IP/port: 192.168.203.2:55372, seqno: 246819332, ackno: 16777216, outgoing circuit: 0x401
+incoming TCP packet, src IP/port: 128.9.160.91:80, dst IP/port: 192.168.203.2:55372, seqno: 246819332, ackno: 16777216, outgoing circuit: 0x401
+incoming TCP packet, src IP/port: 128.9.160.91:80, dst IP/port: 192.168.203.2:55372, seqno: 246819534, ackno: 16777216, outgoing circuit: 0x401
+pkt from port: 33402, length: 51, contents: 0x610104ab1a6be8d29dcc1ed7b0c01d111eaf323029a98b89e1d59c5aa98f3658558a76d21057a946144fd6d06ede69b7dd32
+outgoing TCP packet, circuit incoming: 0x401, incoming src IP/port:0.0.0.0:55372, outgoing src IP/port: 192.168.203.2:55372, dst IP/port: 128.9.160.91:80, seqno: 3652978027, ackno: 16777216
+pkt from port: 33402, length: 51, contents: 0x6101041239bed82d7370a01fd0e7ce76742de42c9c1e1e731b986bd3977b1ac014cbe9d79c32f775257114ccc7adbb73a193
+outgoing TCP packet, circuit incoming: 0x401, incoming src IP/port:0.0.0.0:55372, outgoing src IP/port: 192.168.203.2:55372, dst IP/port: 128.9.160.91:80, seqno: 3652978027, ackno: 16777216
+pkt from port: 33402, length: 67, contents: 0x610104b4ea11fafdb9c2c175e24b96f167764affd9663dc52b2874dfde7c20146888db9bbdb0d616376227d67959c22f968da7f72243257e6f89086de6ad3e76d
+outgoing TCP packet, circuit incoming: 0x401, incoming src IP/port:0.0.0.0:49323, outgoing src IP/port: 192.168.203.2:49323, dst IP/port: 128.9.160.91:80, seqno: 2877992286, ackno: 0
+incoming TCP packet, src IP/port: 128.9.160.91:80, dst IP/port: 192.168.203.2:49323, seqno: 295439428, ackno: 16777216, outgoing circuit: 0x401
+pkt from port: 33402, length: 51, contents: 0x61010433c84fc23d8c326f12f255d6599976f0a5de2d2154ac24e616e39436d81f22d55abebe2fe9f7eb96165f61dadc
+outgoing TCP packet, circuit incoming: 0x401, incoming src IP/port:0.0.0.0:49323, outgoing src IP/port: 192.168.203.2:49323, dst IP/port: 128.9.160.91:80, seqno: 2877992287, ackno: 16777216
+pkt from port: 33402, length: 51, contents: 0x6101045ffcbfe814debc25f67fbda8789fb8afce579a959d31fad09d1f76f4bcb1cdd52493202f79d9798091acf4d2681fae
+outgoing TCP packet, circuit incoming: 0x401, incoming src IP/port:0.0.0.0:49323, outgoing src IP/port: 192.168.203.2:49323, dst IP/port: 128.9.160.91:80, seqno: 2877992287, ackno: 16777216
+pkt from port: 33402, length: 51, contents: 0x610104c25c3d44cb45ea22daa230b4ff9e556e90d8a5b29bbb1547c29e6a28bd7d5bcbbeffbb94d6bee380567a5896240
+outgoing TCP packet, circuit incoming: 0x401, incoming src IP/port:0.0.0.0:49323, outgoing src IP/port: 192.168.203.2:49323, dst IP/port: 128.9.160.91:80, seqno: 2877992292, ackno: 16777216
+incoming TCP packet, src IP/port: 128.9.160.91:80, dst IP/port: 192.168.203.2:49323, seqno: 295439429, ackno: 16777216, outgoing circuit: 0x401
+incoming TCP packet, src IP/port: 128.9.160.91:80, dst IP/port: 192.168.203.2:49323, seqno: 295439429, ackno: 16777216, outgoing circuit: 0x401
+incoming TCP packet, src IP/port: 128.9.160.91:80, dst IP/port: 192.168.203.2:49323, seqno: 295439429, ackno: 16777216, outgoing circuit: 0x401
+pkt from port: 33402, length: 51, contents: 0x6101045e8cc090db3fbd9f6bb28fe6b8fde39d869c30b3d42c5e1e3b16379f6ff21efc0285f2888922a2889efacab817bfbcf
+outgoing TCP packet, circuit incoming: 0x401, incoming src IP/port:0.0.0.0:49323, outgoing src IP/port: 192.168.203.2:49323, dst IP/port: 128.9.160.91:80, seqno: 2877992293, ackno: 16777216
+pkt from port: 33402, length: 67, contents: 0x610104455d269ef9d7873de7f7af6733617a656184f5bf20616d7290638bc8b756d359a0c33ff24ae71741b052d940356efd167527f7ba878b2d1a7af0ce625c8122f
+outgoing TCP packet, circuit incoming: 0x401, incoming src IP/port:0.0.0.0:49698, outgoing src IP/port: 192.168.203.2:49698, dst IP/port: 128.30.2.155:80, seqno: 1342350842, ackno: 0
+incoming TCP packet, src IP/port: 128.30.2.155:80, dst IP/port: 192.168.203.2:49698, seqno: 773939324, ackno: 16777216, outgoing circuit: 0x401
+pkt from port: 33402, length: 51, contents: 0x610104a0763667432e8980c3492284c6243ac78e1c5b31c3ada73752a15cefe04634dfa755e0e589c0eca2e2a54b4dbf577
+outgoing TCP packet, circuit incoming: 0x401, incoming src IP/port:0.0.0.0:49698, outgoing src IP/port: 192.168.203.2:49698, dst IP/port: 128.30.2.155:80, seqno: 1342350843, ackno: 16777216
+pkt from port: 33402, length: 51, contents: 0x610104cab6394ce88f3c4deb1492f801b84ab8cc9ef3c7357298f5847d02d9730769125bfcebc5010455e496418d8b08b2c3
+outgoing TCP packet, circuit incoming: 0x401, incoming src IP/port:0.0.0.0:49698, outgoing src IP/port: 192.168.203.2:49698, dst IP/port: 128.30.2.155:80, seqno: 1342350843, ackno: 16777216
+pkt from port: 33402, length: 51, contents: 0x6101041bbe9eaefe7196249572b8eb10b2f4f7c4c0197c448a12165a521fcc98e75d643a3b01a693f28464f482f38ccd8d66a
+outgoing TCP packet, circuit incoming: 0x401, incoming src IP/port:0.0.0.0:49698, outgoing src IP/port: 192.168.203.2:49698, dst IP/port: 128.30.2.155:80, seqno: 1342350848, ackno: 16777216
+incoming TCP packet, src IP/port: 128.30.2.155:80, dst IP/port: 192.168.203.2:49698, seqno: 773939325, ackno: 16777216, outgoing circuit: 0x401
+incoming TCP packet, src IP/port: 128.30.2.155:80, dst IP/port: 192.168.203.2:49698, seqno: 773939325, ackno: 16777216, outgoing circuit: 0x401
+incoming TCP packet, src IP/port: 128.30.2.155:80, dst IP/port: 192.168.203.2:49698, seqno: 773939325, ackno: 16777216, outgoing circuit: 0x401
+incoming TCP packet, src IP/port: 128.30.2.155:80, dst IP/port: 192.168.203.2:49698, seqno: 773939641, ackno: 16777216, outgoing circuit: 0x401
+pkt from port: 33402, length: 51, contents: 0x610104f83df50e4dda46a9a15bdc364946c37552870bdad69141379f5c4f04776faa1d954c1c34b2566df8d6816ad19cabe5
+outgoing TCP packet, circuit incoming: 0x401, incoming src IP/port:0.0.0.0:49698, outgoing src IP/port: 192.168.203.2:49698, dst IP/port: 128.30.2.155:80, seqno: 1342350849, ackno: 16777216
+pkt from port: 33402, length: 51, contents: 0x610104df8238142fc2cace993921e17f9e90fcebdc50a1a3b1dc1155caf9fc466c53e95a7dfb72ea499f5ac82d1c36f45ea
+outgoing TCP packet, circuit incoming: 0x401, incoming src IP/port:0.0.0.0:49698, outgoing src IP/port: 192.168.203.2:49698, dst IP/port: 128.30.2.155:80, seqno: 1342350849, ackno: 16777216

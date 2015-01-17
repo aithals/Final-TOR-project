@@ -1,0 +1,23 @@
+router: 3, pid: 10378, port: 48365 IP: 192.168.203.2
+pkt from port: 52263, length: 5, contents: 0x520100c4a3
+new extend circuit: incoming: 0x01, outgoing: 0x103 at 41924
+pkt from port: 52263, length: 5, contents: 0x520100bcbb
+forwarding extend circuit: incoming: 0x01, outgoing: 0x103 at 41924
+pkt from port: 41924, length: 3, contents: 0x530103
+forwarding extend-done circuit, incoming: 0x301, outgoing: 0x01 at 52263
+pkt from port: 52263, length: 5, contents: 0x520100ffff
+forwarding extend circuit: incoming: 0x01, outgoing: 0x103 at 41924
+pkt from port: 41924, length: 3, contents: 0x530103
+forwarding extend-done circuit, incoming: 0x301, outgoing: 0x01 at 52263
+pkt from port: 52263, length: 87, contents:0x5101004500548ed400401a581c0a88e8aa5333805429288e01bb56654123bc089abcdef101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+relay packet, circuit incoming: 0x01, outgoing: 0x301, incoming src:192.168.142.138, outgoing src: 192.168.203.2, dst: 10.5.51.3 
+pkt from port: 41924, length: 87, contents:0x540103450054962d400401dcc8c0a8ca2a5333007e92288e01bb56654123bc089abcdef101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+relay reply packet, circuit incoming: 0x301, outgoing: 0x01, src: 192.168.202.2, incoming dst: 192.168.203.2, outgoing dest: 192.168.142.138
+pkt from port: 52263, length: 87, contents:0x510100450054ca400401a264c0a88e8aa533380eb25288e02cb566547a3dc089abcdef101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+relay packet, circuit incoming: 0x01, outgoing: 0x301, incoming src:192.168.142.138, outgoing src: 192.168.203.2, dst: 10.5.51.3 
+pkt from port: 41924, length: 87, contents:0x54010345005497f8400401dafdc0a8ca2a5333007b29288e02cb566547a3dc089abcdef101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+relay reply packet, circuit incoming: 0x301, outgoing: 0x01, src: 192.168.202.2, incoming dst: 192.168.203.2, outgoing dest: 192.168.142.138
+pkt from port: 52263, length: 87, contents:0x510100450054f554004019f19c0a88e8aa5333802b17288e03db56654394bc089abcdef101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+relay packet, circuit incoming: 0x01, outgoing: 0x301, incoming src:192.168.142.138, outgoing src: 192.168.203.2, dst: 10.5.51.3 
+pkt from port: 41924, length: 87, contents:0x5401034500549b86400401d76fc0a8ca2a5333006c69288e03db56654394bc089abcdef101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+relay reply packet, circuit incoming: 0x301, outgoing: 0x01, src: 192.168.202.2, incoming dst: 192.168.203.2, outgoing dest: 192.168.142.138

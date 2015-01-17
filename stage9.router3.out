@@ -1,0 +1,33 @@
+router: 3, pid: 20849, port: 52125 IP: 192.168.203.2
+pkt from port: 58387, length: 19, contents: 0x65010034616230653635353166336161373637
+fake-diffie-hellman, new circuit incoming: 0x01, key: 34616230653635353166336161373637
+pkt from port: 58387, length: 19, contents:0x620100786e878988c76930dcfe645a9a90951e
+new extend circuit: incoming: 0x01, outgoing: 0x301, at 58354
+pkt from port: 58387, length: 35, contents: 0x6501001a822c1c344e2e2d61622722fdfcfbcfc1484ab4e6dd976be5e1df681a9779a
+fake-diffie-hellman, forwarding,  circuit incoming: 0x01, key: 0x360x630x600x320x670x340x370x370x330x640x310x630x630x350x340x35
+pkt from port: 58387, length: 35, contents: 0x62010092f125fe43bfb2c3b1cdb9e418036a07d137a1abcc185992542d92bf4ec45
+forwarding extend circuit: incoming: 0x01, outgoing: 0x301 at 58354
+pkt from port: 58387, length: 3, contents: 0x630103
+forwarding extend-done circuit, incoming:0x301, outgoing: 0x01 at 58387
+pkt from port: 58387, length: 51, contents: 0x65010033b22528b6482842497d3ae83a22d86752d77cc4211fc0f0d54fdcc7c398ad9e8c546bf3e354a4153347b1856c974
+fake-diffie-hellman, forwarding,  circuit incoming: 0x01, key: 0x7c0x770xfffffff00xfffffff90x5c0xfffffffc0xffffffde0xffffff9a0x530x470x660xffffffb30xffffffcc0xffffffcb0x460xfffffff30x350xffffffc00x080xffffffb90x290xffffffd50x2d0xffffffe40x3e0xffffffbd0xffffffcc0xffffffc40xffffffcb0xffffffc00x0e0x5e
+pkt from port: 58387, length: 51, contents: 0x6201003f8272aaf53d3140ce5fb555311532f5fcadfbd6c53bf344ef3172ad85823d8ce2626f79fb0c9d9cfae9994780ef
+forwarding extend circuit: incoming: 0x01, outgoing: 0x301 at 58354
+pkt from port: 58387, length: 3, contents: 0x630103
+forwarding extend-done circuit, incoming:0x301, outgoing: 0x01 at 58387
+pkt from port: 58387, length: 67, contents: 0x650100ab97dc718ba8281920dd28c496f3c378bcb9fedbc4923ce17f73e86ac5745bfe144e7b041fd3c6ee428b9649dbcbef59be3d12f52471452be99cad78d798
+fake-diffie-hellman, forwarding,  circuit incoming: 0x01, key: 0x190xfffffff50xffffffa90xffffffd80xffffffb70x680x110x3f0xffffffb00x300x620xffffffe10x140x210xffffffd10x560x760x530xffffffed0x650x360x330x3a0xffffffe90xfffffffd0xffffff980x5e0x040xffffff8a0xffffff990x1b0x150x690x330xffffffef0x360x260x650x1a0x350xffffffb20x490xffffffe60x490xffffff890x2b0x240x7e
+pkt from port: 58387, length: 67, contents: 0x62010074d3f7796bf666ab9911282e111837a37350ec79ddf677a9233248c49142c1f7f6ccce2ef52d040c42cdc88bcfd804c322e944b809021d88ffd8c424eabe1
+forwarding extend circuit: incoming: 0x01, outgoing: 0x301 at 58354
+pkt from port: 58387, length: 3, contents: 0x630103
+forwarding extend-done circuit, incoming:0x301, outgoing: 0x01 at 58387
+pkt from port: 58387, length: 147, contents: 0x61010348817dcc425543bcdec36fc8c95265325bf8413bdecd86b52e9527dfc36add9fd91230df4919e08568pkt from port: 54305, length: 99, contents: 0x6401058aa8136b52731970342519746f191223e89c68621c4e64688322d3960482c5c4029fcc6edb5c634625ef6bac647caa399af22a3fa6ad7f2a52a3941f94733d3272d794d96a4c9f78a61dd6e65676189205d254712ae43cc31391442e6
+relay reply encrypted packet, circuit incoming:  0x301, outgoing: 0x501 
+incoming TCP packet, src IP/port: 128.9.160.91:80, dst IP/port: 192.168.203.2:34177, seqno: 486432026, ackno: 16777216, outgoing circuit: 0x501
+incoming TCP packet, src IP/port: 128.9.160.91:80, dst IP/port: 192.168.203.2:34177, seqno: 486432027, ackno: 16777216, outgoing circuit: 0x501
+incoming TCP packet, src IP/port: 128.9.160.91:80, dst IP/port: 192.168.203.2:34177, seqno: 486432027, ackno: 16777216, outgoing circuit: 0x501
+incoming TCP packet, src IP/port: 128.9.160.91:80, dst IP/port: 192.168.203.2:34177, seqno: 486432027, ackno: 16777216, outgoing circuit: 0x501
+incoming TCP packet, src IP/port: 128.9.160.91:80, dst IP/port: 192.168.203.2:58169, seqno: 1955605699, ackno: 16777216, outgoing circuit: 0x501
+incoming TCP packet, src IP/port: 128.9.160.91:80, dst IP/port: 192.168.203.2:58169, seqno: 1955605700, ackno: 16777216, outgoing circuit: 0x501
+incoming TCP packet, src IP/port: 128.9.160.91:80, dst IP/port: 192.168.203.2:58169, seqno: 1955605700, ackno: 16777216, outgoing circuit: 0x501
+incoming TCP packet, src IP/port: 128.9.160.91:80, dst IP/port: 192.168.203.2:58169, seqno: 1955605903, ackno: 16777216, outgoing circuit: 0x501

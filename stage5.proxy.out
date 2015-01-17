@@ -1,0 +1,23 @@
+proxy port: 52263
+router: 1, pid: 10376, port: 41924 IP: 192.168.201.2
+router: 2, pid: 10377, port: 48060 IP: 192.168.202.2
+router: 3, pid: 10378, port: 48365 IP: 192.168.203.2
+router: 4, pid: 10379, port: 55915 IP: 192.168.204.2
+hop: 1, router: 3
+hop: 2, router: 1
+hop: 3, router: 2
+pkt from port: 48365, length: 3, contents: 0x530100
+incoming extend-done circuit, incoming: 0x01 from port: 48365
+pkt from port: 48365, length: 3, contents: 0x530100
+incoming extend-done circuit, incoming: 0x01 from port: 48365
+pkt from port: 48365, length: 3, contents: 0x530100
+incoming extend-done circuit, incoming: 0x01 from port: 48365
+ICMP from tunnel: src: 192.168.142.138, dst: 10.5.51.3, type: 8
+pkt from port: 48365, length: 87, contents:0x540100450054962d400401dcc8c0a8ca2c0a88e8a007e92288e01bb56654123bc089abcdef101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+incoming packet, circuit incoming: 0x01, src: 192.168.202.2, dst: 192.168.142.138
+ICMP from tunnel: src: 192.168.142.138, dst: 10.5.51.3, type: 8
+pkt from port: 48365, length: 87, contents:0x54010045005497f8400401dafdc0a8ca2c0a88e8a007b29288e02cb566547a3dc089abcdef101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+incoming packet, circuit incoming: 0x01, src: 192.168.202.2, dst: 192.168.142.138
+ICMP from tunnel: src: 192.168.142.138, dst: 10.5.51.3, type: 8
+pkt from port: 48365, length: 87, contents:0x5401004500549b86400401d76fc0a8ca2c0a88e8a006c69288e03db56654394bc089abcdef101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+incoming packet, circuit incoming: 0x01, src: 192.168.202.2, dst: 192.168.142.138

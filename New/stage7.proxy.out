@@ -1,0 +1,14 @@
+proxy port: 47610
+router: 1, pid: 2918, port: 60669 IP: 192.168.201.2
+router: 2, pid: 2919, port: 35874 IP: 192.168.202.2
+router: 3, pid: 2920, port: 49903 IP: 192.168.203.2
+router: 4, pid: 2921, port: 40640 IP: 192.168.204.2
+hop: 1, router: 4
+hop: 2, router: 2
+new-fake-diffe-hellman, router index: 4, circuit outgoing: 0x01, key: 0x373d6266363562653632653d3c336531
+pkt from port: 40640, length: 3, contents:0x630100
+incoming extend-done circuit, incoming: 0x01 from port: 40640
+new-fake-diffe-hellman, router index: 2, circuit outgoing: 0x01, key: 0x313b6460303364633034633b3a356337
+pkt from port: 40640, length: 3, contents:0x630100
+incoming extend-done circuit, incoming: 0x01 from port: 40640
+ICMP from tunnel: src: 192.168.16.129, dst: 128.30.2.104, type: 8

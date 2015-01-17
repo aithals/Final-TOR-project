@@ -1,0 +1,37 @@
+router: 5, pid: 3069, port: 42252 IP: 192.168.205.2
+pkt from port: 48581, length: 5, contents: 0x5206019abb
+new extend circuit: incoming: 0x601, outgoing: 0x501 at 48026
+pkt from port: 48581, length: 5, contents: 0x520601dd90
+forwarding extend circuit: incoming: 0x601, outgoing: 0x501 at 48026
+pkt from port: 48026, length: 3, contents: 0x530501
+forwarding extend-done circuit, incoming: 0x501, outgoing: 0x601 at 48581
+pkt from port: 48581, length: 5, contents: 0x5206011180
+forwarding extend circuit: incoming: 0x601, outgoing: 0x501 at 48026
+pkt from port: 48026, length: 3, contents: 0x530501
+forwarding extend-done circuit, incoming: 0x501, outgoing: 0x601 at 48581
+pkt from port: 48581, length: 5, contents: 0x520601ffff
+forwarding extend circuit: incoming: 0x601, outgoing: 0x501 at 48026
+pkt from port: 48026, length: 3, contents: 0x530501
+forwarding extend-done circuit, incoming: 0x501, outgoing: 0x601 at 48581
+pkt from port: 48581, length: 87, contents:0x51060145005445e40040123ffffffe4ffffffc0ffffffa8ffffffce2ffffff801e26680a75c201ffffffa2326054fffffff3fffffffd0089abcdef101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+relay packet, circuit incoming: 0x601, outgoing: 0x501, incoming src:192.168.206.2, outgoing src: 192.168.205.2, dst: 128.30.2.102 
+pkt from port: 48026, length: 87, contents:0x5405014500544effffff9200ffffff801ffffffddffffffe7ffffff801e266ffffffc0ffffffa8ffffffcd2001275c201ffffffa2326054fffffff3fffffffd0089abcdef101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+relay reply packet, circuit incoming: 0x501, outgoing: 0x601, src: 128.30.2.102, incoming dst: 192.168.205.2, outgoing dest: 192.168.206.2
+pkt from port: 48581, length: 87, contents:0x51060145005445ffffffce4004012324ffffffc0ffffffa8ffffffce2ffffff801e26680b6fc202ffffffa3326054fffffff121089abcdef101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+relay packet, circuit incoming: 0x601, outgoing: 0x501, incoming src:192.168.206.2, outgoing src: 192.168.205.2, dst: 128.30.2.102 
+pkt from port: 48026, length: 87, contents:0x5405014500544effffffc500ffffff801ffffffddffffffb4ffffff801e266ffffffc0ffffffa8ffffffcd200136fc202ffffffa3326054fffffff121089abcdef101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+relay reply packet, circuit incoming: 0x501, outgoing: 0x601, src: 128.30.2.102, incoming dst: 192.168.205.2, outgoing dest: 192.168.206.2
+pkt from port: 48581, length: 87, contents:0x51060145005449474004011fffffffabffffffc0ffffffa8ffffffce2ffffff801e266803c63c203ffffffa4326054ffffffbfd1089abcdef101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+relay packet, circuit incoming: 0x601, outgoing: 0x501, incoming src:192.168.206.2, outgoing src: 192.168.205.2, dst: 128.30.2.102 
+pkt from port: 48581, length: 87, contents:0x5106014500545b3b400401dffffffb7ffffffc0ffffffa8ffffffce2ffffff801e26680ffffffe032c401ffffffa9326054103e7089abcdef101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+relay packet, circuit incoming: 0x601, outgoing: 0x501, incoming src:192.168.206.2, outgoing src: 192.168.205.2, dst: 128.30.2.102 
+pkt from port: 48026, length: 87, contents:0x54050145005450100ffffff801ffffffdc78ffffff801e266ffffffc0ffffffa8ffffffcd200ffffffe832c401ffffffa9326054103e7089abcdef101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+relay reply packet, circuit incoming: 0x501, outgoing: 0x601, src: 128.30.2.102, incoming dst: 192.168.205.2, outgoing dest: 192.168.206.2
+pkt from port: 48581, length: 87, contents:0x5106014500545d4c400401bffffffa6ffffffc0ffffffa8ffffffce2ffffff801e26680ffffffed2ac402ffffffaa3260542457089abcdef101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+relay packet, circuit incoming: 0x601, outgoing: 0x501, incoming src:192.168.206.2, outgoing src: 192.168.205.2, dst: 128.30.2.102 
+pkt from port: 48026, length: 87, contents:0x540501450054503400ffffff801ffffffdc45ffffff801e266ffffffc0ffffffa8ffffffcd200fffffff52ac402ffffffaa3260542457089abcdef101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+relay reply packet, circuit incoming: 0x501, outgoing: 0x601, src: 128.30.2.102, incoming dst: 192.168.205.2, outgoing dest: 192.168.206.2
+pkt from port: 48581, length: 87, contents:0x51060145005461174004017ffffffdbffffffc0ffffffa8ffffffce2ffffff801e26680ffffffc020c403ffffffab3260542e4e7089abcdef101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+relay packet, circuit incoming: 0x601, outgoing: 0x501, incoming src:192.168.206.2, outgoing src: 192.168.205.2, dst: 128.30.2.102 
+pkt from port: 48026, length: 87, contents:0x540501450054506700ffffff801ffffffdc12ffffff801e266ffffffc0ffffffa8ffffffcd200ffffffc820c403ffffffab3260542e4e7089abcdef101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+relay reply packet, circuit incoming: 0x501, outgoing: 0x601, src: 128.30.2.102, incoming dst: 192.168.205.2, outgoing dest: 192.168.206.2

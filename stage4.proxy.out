@@ -1,0 +1,8 @@
+proxy port: 40078
+router: 1, pid: 1995, port: 41783 
+ICMP from tunnel: src: 192.168.142.138, dst: 128.30.2.103, type: 8
+ICMP from port: 41783 src: 128.30.2.103, dst: 192.168.142.138, type: 0
+ICMP from tunnel: src: 192.168.142.138, dst: 128.30.2.103, type: 8
+ICMP from port: 41783 src: 128.30.2.103, dst: 192.168.142.138, type: 0
+ICMP from tunnel: src: 192.168.142.138, dst: 128.30.2.103, type: 8
+ICMP from port: 41783 src: 128.30.2.103, dst: 192.168.142.138, type: 0

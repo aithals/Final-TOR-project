@@ -1,0 +1,5 @@
+router: 4, pid: 4255, port: 40561 IP: 192.168.204.2
+pkt from port: 56447, length: 19, contents: 0x65010137606236616230613462676631673d34
+fake-diffie-hellman, new circuit incoming: 0x101, key: 37606236616230613462676631673d34
+pkt from port: 56447, length: 19, contents:0x620101ac5c6b3e2d0c75f4e938bb74bf410aa
+new extend circuit: incoming: 0x101, outgoing: 0x401, at 65535

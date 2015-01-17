@@ -1,0 +1,23 @@
+router: 5, pid: 4256, port: 35057 IP: 192.168.205.2
+pkt from port: 52178, length: 19, contents: 0x65010036616337606331603563666730663c35
+fake-diffie-hellman, new circuit incoming: 0x01, key: 36616337606331603563666730663c35
+pkt from port: 52178, length: 19, contents:0x6201005bfeff206b6f332817773e82826f17a2
+new extend circuit: incoming: 0x01, outgoing: 0x501, at 38670
+pkt from port: 52178, length: 35, contents: 0x6501002a22175c53b3c3427fad3c76a1aeb3887dc46ee6e50118fd386e546c4e8c1b
+fake-diffie-hellman, forwarding,  circuit incoming: 0x01, key: 0x310x660x640x300x670x640x360x670x320x640x610x600x370x610x3b0x32
+pkt from port: 52178, length: 35, contents: 0x620100a04a6fd4afdb18dc34a1865255b95324b217fbd2d9a069ceee4ccf62d01f72c7
+forwarding extend circuit: incoming: 0x01, outgoing: 0x501 at 38670
+pkt from port: 52178, length: 3, contents: 0x630105
+forwarding extend-done circuit, incoming:0x501, outgoing: 0x01 at 52178
+pkt from port: 52178, length: 51, contents: 0x65010018145d78a9c837e96b19d38f629fcd857055b2cead52f07cec477083cf66a3fd1cd683942a426a32c86a3b7c63fcd3
+fake-diffie-hellman, forwarding,  circuit incoming: 0x01, key: 0xffffffcf0xffffffdb0xffffffc30x1e0x410x3b0xfffffffa0x480xffffff870xffffffb00xffffffbb0xffffffec0x110x7e0x660xffffff830xffffffb40x030x360xffffff8f0x6d0x620x570xffffff8f0xffffffa20xffffff900xffffffba0xffffffaf0x520x410xffffffc30xffffffd2
+pkt from port: 52178, length: 51, contents: 0x62010072cfb6462333f55c2196fc915ad0a2147af86621452f1c16be039b4497b3aae339f6bf47384ef68c2ce45fe26ae7dd
+forwarding extend circuit: incoming: 0x01, outgoing: 0x501 at 38670
+pkt from port: 52178, length: 3, contents: 0x630105
+forwarding extend-done circuit, incoming:0x501, outgoing: 0x01 at 52178
+pkt from port: 52178, length: 67, contents: 0x6501006a1dfe13c80fe7a7f69f094669bb5a6cc629b037972ff0e67e1617caa85faf5a6d2eeda9189cab384ab0bbe0bd3272c1c1aa10d836886b7bdf2abb0744760
+fake-diffie-hellman, forwarding,  circuit incoming: 0x01, key: 0xffffffc40x1b0xffffff840x000x240x790x1a0x3e0xffffffd10xffffffc60x780x390xffffffde0xffffff820xffffffcc0xffffffc60x6a0xffffffb20xffffff820xffffffa60x640xffffff900xffffff890xffffff900x090x220xffffff800x3c0x080xfffffffb0x750xffffff890xffffffac0x370x140x280xffffffd40xffffffae0xfffffff30x050xfffffff50xffffff9f0x2d0xffffffc00x510x740x030xffffff8f
+pkt from port: 52178, length: 67, contents: 0x620100fde0808aae74923fdad55b73b95fb26e8c8ea0743a989c6c83ff31c998e49ba693a19998a2362469941f38b6975eb981247e2e02b542ad6adf071fd54aebe
+forwarding extend circuit: incoming: 0x01, outgoing: 0x501 at 38670
+pkt from port: 52178, length: 3, contents: 0x630105
+forwarding extend-done circuit, incoming:0x501, outgoing: 0x01 at 52178

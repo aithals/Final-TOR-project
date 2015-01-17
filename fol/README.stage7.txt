@@ -1,0 +1,51 @@
+By:Shashanka Gundmi Vidyadhara Aithal
+projc.c has the proxy running in it
+router.c has the router running in it
+tunnel.c has the tun_alloc() function in it for tunnel allocation
+chksm.c has the in_cksum() function in it for icmp check calculation
+creat_s5.c has the circuit creation code for stage 5
+creat_s6.c has the circuit creation for stage 6 and 9
+creat_s8.c has the circuit creation for stage 8
+router_s6.c has code that takes care of the interactions between routers over the UDP port for stage 6.
+router_s7.c has code that takes care of the interactions between routers over the UDP port for stage 7.
+router_s8.c has code that takes care of the interactions between routers over the UDP port for stage 8.
+router_s9.c has code that takes care of the interactions between routers over the UDP port for stage 9.
+aes.c contains encryption and decryption code.
+key.h has a few variables that are shared between different files
+tunnel.h has the structures used
+ 
+running code:
+just use "make" for compiling 
+running ./projc <configfile>
+
+
+please ignore the messages on the command line stdout.
+press ctrl +c and press enter to exit
+
+Stage 3:initial setup:
+		sudo ip tuntap add dev tun1 mode tun
+		sudo ifconfig tun1 10.5.51.2/24 up
+		sudo ip rule add from $IP_OF_ETH0 table 9 priority 8
+		sudo ip route add table 9 to 18/8 dev tun1
+		sudo ip route add table 9 to 128/8 dev tun1
+		sudo ifconfig eth1 192.168.201.2/24 up
+		sudo ifconfig eth2 192.168.202.2/24 up
+		sudo ifconfig eth3 192.168.203.2/24 up
+		sudo ifconfig eth4 192.168.204.2/24 up
+		sudo ifconfig eth5 192.168.205.2/24 up
+		sudo ifconfig eth6 192.168.206.2/24 up
+		sudo iptables -A OUTPUT -p tcp --tcp-flags RST RST -j DROP
+		sudo ip route add table 9 to 128.9.160.91 dev tun1
+				
+		I have included a .c file: ini.c which initiaizes the whole setup for projb. TA can optionally use this to
+		setup.
+		
+Description: Same concept as stage 6 but extends support for TCP. My code supports bot TCP and ICMP here but logging is done properly
+only for TCP.
+
+a)Reused Code: Only the ones provided in the class website and for sendmsg function i referred this
+ /*reference :http://www.microhowto.info/howto/send_an_arbitrary_ipv4_datagram_using_a_raw_socket_in_c.html*/
+b)Complete: yes
+c)The TCP connection and the flow would never have formed as the kernel sends RST each time the tcp packets get diverted into
+our tunnel
+d)Since TCP is a reliable connectionful protocol the kernel does this while its not the case with UDP and ICMP.

@@ -1,0 +1,23 @@
+router: 3, pid: 15375, port: 34175 IP: 192.168.203.2
+pkt from port: 58706, length: 19, contents: 0x65010536353365323a60303267323a61343034
+fake-diffie-hellman, new circuit incoming: 0x501, key: 36353365323a60303267323a61343034
+pkt from port: 58706, length: 19, contents:0x6201055fb5376b1c8645bcc4fff2cf6533cb
+new extend circuit: incoming: 0x501, outgoing: 0x301, at 65535
+pkt from port: 58706, length: 99, contents: 0x610105914f6cc26a60a469fe66faa941c7f4f3a69dcef6868e985c8d6cc0daf5b7eb23a120d74b8a4e85d2c1e1fbf8b32456f96fc64c8ce29bd4373ccd5f653f1188e21818b6eaf199b2299c5784736b7d7429e176fef4a491ed9c24a3821ee20d4
+outgoing packet, circuit incoming: 0x501, incoming src:0.0.0.0, outgoing src: 192.168.203.2, dst: 128.30.2.155
+incoming packet, src: 128.30.2.155, dst: 192.168.203.2, outgoing circuit: 0x105
+pkt from port: 58706, length: 99, contents: 0x610105ae886b5b93a145b654b760d596fab322c236da7bd58758cc1e0b3a0c0cefb2ec7e68be6498d9d4ce2f6e2a79ce2dc543518c14e99b065d948cb98e2ee20d2603f5f4cb44a61ee88e3e67f8b195fd6723cbfb74a47ea0971c5e2693a4c2a5
+outgoing packet, circuit incoming: 0x501, incoming src:0.0.0.0, outgoing src: 192.168.203.2, dst: 128.30.2.155
+incoming packet, src: 128.30.2.155, dst: 192.168.203.2, outgoing circuit: 0x105
+pkt from port: 58706, length: 99, contents: 0x61010565e4765ceb46289d7bb5aebef745c445ed340ee96c4919825e91f2e5ac0beefa29b6a8d09d185865599dcf3a7428e88ee1a80d723755b6a2fce84bde9c859528b52eec46beb2afe0e92eb62dc7ab9cafb81ad2b1b8e8f7283bf9e8f5409f
+outgoing packet, circuit incoming: 0x501, incoming src:0.0.0.0, outgoing src: 192.168.203.2, dst: 128.30.2.155
+incoming packet, src: 128.30.2.155, dst: 192.168.203.2, outgoing circuit: 0x105
+pkt from port: 58706, length: 99, contents: 0x6101059bbf7239bd31791ed2473a4fd9e292c7e83de4a5cb97e7c432448e6460aa2e8ed9eff004293e71ecfb02c3729f178596f2d92ac68ece90404cac38a87e89b91a2f9a9d2c138c0125af55a5647f77498cb24e31f5e4c16475edf9a3c90
+outgoing packet, circuit incoming: 0x501, incoming src:0.0.0.0, outgoing src: 192.168.203.2, dst: 128.30.2.155
+incoming packet, src: 128.30.2.155, dst: 192.168.203.2, outgoing circuit: 0x105
+pkt from port: 58706, length: 99, contents: 0x6101051174e42640e0874cf45eca7d96cd22aa9c7a9493caa76551dd497c57a713a5236bae55144af72b877f0a7b4d8a42b9583b631abf2d011cf2d12a62ef3981eff517e0a3c296e6ebe7147211ffc3e9459e7c23b6c8ab3dce93aa78d36f5
+outgoing packet, circuit incoming: 0x501, incoming src:0.0.0.0, outgoing src: 192.168.203.2, dst: 128.30.2.155
+incoming packet, src: 128.30.2.155, dst: 192.168.203.2, outgoing circuit: 0x105
+pkt from port: 58706, length: 99, contents: 0x610105ac66ac4dfcf04312490158d97dc21942d5a85e3188a45df28451d9ff8fd1abbe70deb77b263485987edf1fc522a433d8043ab76764252c246fe21ee4ab37d6e019fe53f8ccdb1483a65561d844c5212a5efb8f7d8938a39c8d82121f
+outgoing packet, circuit incoming: 0x501, incoming src:0.0.0.0, outgoing src: 192.168.203.2, dst: 128.30.2.155
+incoming packet, src: 128.30.2.155, dst: 192.168.203.2, outgoing circuit: 0x105

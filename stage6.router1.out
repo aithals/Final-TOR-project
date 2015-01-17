@@ -1,0 +1,11 @@
+router: 1, pid: 4252, port: 56447 IP: 192.168.201.2
+pkt from port: 38670, length: 19, contents: 0x65010232656733646735643167626334623831
+fake-diffie-hellman, new circuit incoming: 0x201, key: 32656733646735643167626334623831
+pkt from port: 38670, length: 19, contents:0x6201027a85aee97fde947a866fb4bbf245d7c
+new extend circuit: incoming: 0x201, outgoing: 0x101, at 40561
+pkt from port: 38670, length: 35, contents: 0x650102ea563ef8d71cb7b49fa81b3f83ff29d49265cf552f622e33eb542f7e5d479de
+fake-diffie-hellman, forwarding,  circuit incoming: 0x201, key: 0x370x600x620x360x610x620x300x610x340x620x670x660x310x670x3d0x34
+pkt from port: 38670, length: 35, contents: 0x620102ceb41c7fe41e6cd24a1d5fa9ec7626ba22dc835bfeb2283c83b1ec264ec88
+forwarding extend circuit: incoming: 0x201, outgoing: 0x101 at 40561
+pkt from port: 38670, length: 3, contents: 0x630101
+forwarding extend-done circuit, incoming:0x101, outgoing: 0x201 at 38670

@@ -1,0 +1,17 @@
+router: 2, pid: 4253, port: 38670 IP: 192.168.202.2
+pkt from port: 35057, length: 19, contents: 0x65010531666430676436673264616037613b32
+fake-diffie-hellman, new circuit incoming: 0x501, key: 31666430676436673264616037613b32
+pkt from port: 35057, length: 19, contents:0x62010510c7bf7494650c2ab5bac54f9318a
+new extend circuit: incoming: 0x501, outgoing: 0x201, at 56447
+pkt from port: 35057, length: 35, contents: 0x650105cfdbc31e413bfa4887b0bbec117e6683b43368f6d62578fa290baaf5241c3d2
+fake-diffie-hellman, forwarding,  circuit incoming: 0x501, key: 0x320x650x670x330x640x670x350x640x310x670x620x630x340x620x380x31
+pkt from port: 35057, length: 35, contents: 0x6201055485e9eee95c7cc881e640e9631a80dfdce7ba9d582c398c8e4ec5d8bdd75b7
+forwarding extend circuit: incoming: 0x501, outgoing: 0x201 at 56447
+pkt from port: 35057, length: 3, contents: 0x630102
+forwarding extend-done circuit, incoming:0x201, outgoing: 0x501 at 35057
+pkt from port: 35057, length: 51, contents: 0x650105c41b84024791a3ed1c67839de82ccc66ab282a664908990922803c8fb7589ac371428d4aef35f59f2dc0517438f
+fake-diffie-hellman, forwarding,  circuit incoming: 0x501, key: 0xffffffea0x560x3e0xfffffff80xffffffd70x1c0xffffffb70xffffffb40xffffff9f0xffffffa80x1b0x3f0xffffff830xffffffff0x290xffffffd40xffffff920x650xffffffcf0x050x520xfffffff60x220xffffffe30x3e0xffffffb50x420xfffffff70xffffffe50xffffffd40x790xffffffde
+pkt from port: 35057, length: 51, contents: 0x6201053e5e8a10dd5337b97d17dd66e2498fefcda11d918c5157593e1c3fa8b6d919ebbca7f3713da1651a9b3ad378bd3567
+forwarding extend circuit: incoming: 0x501, outgoing: 0x201 at 56447
+pkt from port: 35057, length: 3, contents: 0x630102
+forwarding extend-done circuit, incoming:0x201, outgoing: 0x501 at 35057

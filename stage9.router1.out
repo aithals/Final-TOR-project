@@ -1,0 +1,23 @@
+router: 1, pid: 20847, port: 58354 IP: 192.168.201.2
+incoming packet, src: 128.30.2.104, dst: 192.168.201.2, outgoing circuit: 0x00
+53435
+fake-diffie-hellman, new circuit incoming: 0x301, key: 36636032673437373364316363353435
+pkt from port: 52125, length: 19, contents:0x620103eb89a41ce55f32635b86a2dc0117f6a
+new extend circuit: incoming: 0x301, outgoing: 0x101, at 58306
+pkt from port: 52125, length: 35, contents: 0x6501037c77f0f95cfcde9a534766b3cccb46f335c08b929d52de43ebdccc4cbc0e5e
+fake-diffie-hellman, forwarding,  circuit incoming: 0x301, key: 0x320x670x640x360x630x300x330x330x370x600x350x670x670x310x300x31
+pkt from port: 52125, length: 35, contents: 0x620103ed22c36881eff5bb236c4698889797bd8d4d92a6728f686c894383812c69ed6
+forwarding extend circuit: incoming: 0x301, outgoing: 0x101 at 58306
+pkt from port: 52125, length: 3, contents: 0x630101
+forwarding extend-done circuit, incoming:0x101, outgoing: 0x301 at 52125
+pkt from port: 52125, length: 51, contents: 0x65010319f5a9d8b768113fb03062e11421d1567653ed6536333ae9fd985e48a991b156933ef3626651a35b249e649892b247e
+fake-diffie-hellman, forwarding,  circuit incoming: 0x301, key: 0xffffffcd0xffffffe20xffffffb90x2e0x7b0xffffffa70xffffffaf0xffffff910x050x230xffffffc40xffffffc60x3c0xffffffad0xffffffb40x6e0xffffffd10xffffffdb0xffffffb90x640xffffffe10xfffffff70x1b0x6a0xffffff920x280xffffff9d0xffffffb40xfffffff40xffffff920x440xffffffae
+pkt from port: 52125, length: 51, contents: 0x6201032a13d334352a6bff9e55ad6fb71eeab87a104032dcb86a5f75d9cb78dc7896b7742d662a5591f51d25a3f1d7cb
+forwarding extend circuit: incoming: 0x301, outgoing: 0x101 at 58306
+pkt from port: 52125, length: 3, contents: 0x630101
+forwarding extend-done circuit, incoming:0x101, outgoing: 0x301 at 52125
+pkt from port: 52125, length: 131, contents: 0x6101016aabcc0377d9194f05d20ea635f8e9edb28e3108811ac52bb4ef3514398acf69ddc670448b6ee43926d8b4a7a666a12890e64a1e967835cbe7649ac766d3a8f1c745a185a0b352dec528d8db2ed0d2b6b38debe143182f7515515e9943932a30a0a5cffa2c114c6538281cf4474846e8928c99530658d14415017c8c4f9
+relay encrypted packet, circuit incoming: 0x301, outgoing: 0x101 
+pkt from port: 58306, length: 115, contents: 0x6401036d70258891ef8a231fe987c0c9c9ee1ac7ca58b7205fb66a309c7f91c9fa64689744fad80cc80915de55133d87123bcd37dd76dff823501b3749f64c1e50668f53e3486d59237ecf098e3a43ecd35416d974abcf3ef158379556ac96d61d15361323cba4d92a2f430a213cea1
+relay reply encrypted packet, circuit incoming:  0x101, outgoing: 0x301 
+router 1 killed

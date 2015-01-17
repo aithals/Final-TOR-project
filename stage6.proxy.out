@@ -1,0 +1,22 @@
+proxy port: 52178
+router: 1, pid: 4252, port: 56447 IP: 192.168.201.2
+router: 2, pid: 4253, port: 38670 IP: 192.168.202.2
+router: 3, pid: 4254, port: 58289 IP: 192.168.203.2
+router: 4, pid: 4255, port: 40561 IP: 192.168.204.2
+router: 5, pid: 4256, port: 35057 IP: 192.168.205.2
+hop: 1, router: 5
+hop: 2, router: 2
+hop: 3, router: 1
+hop: 4, router: 4
+new-fake-diffe-hellman, router index: 5, circuit outgoing: 0x01, key: 0x36616337606331603563666730663c35
+pkt from port: 35057, length: 3, contents:0x630100
+incoming extend-done circuit, incoming: 0x01 from port: 35057
+new-fake-diffe-hellman, router index: 5, circuit outgoing: 0x01, key: 0x31666430676436673264616037613b32
+pkt from port: 35057, length: 3, contents:0x630100
+incoming extend-done circuit, incoming: 0x01 from port: 35057
+new-fake-diffe-hellman, router index: 5, circuit outgoing: 0x01, key: 0x32656733646735643167626334623831
+pkt from port: 35057, length: 3, contents:0x630100
+incoming extend-done circuit, incoming: 0x01 from port: 35057
+new-fake-diffe-hellman, router index: 5, circuit outgoing: 0x01, key: 0x37606236616230613462676631673d34
+pkt from port: 35057, length: 3, contents:0x630100
+incoming extend-done circuit, incoming: 0x01 from port: 35057

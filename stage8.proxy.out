@@ -1,0 +1,44 @@
+proxy port: 55398
+router: 1, pid: 15373, port: 42580 IP: 192.168.201.2
+router: 2, pid: 15374, port: 58707 IP: 192.168.202.2
+router: 3, pid: 15375, port: 34175 IP: 192.168.203.2
+router: 4, pid: 15376, port: 40331 IP: 192.168.204.2
+router: 5, pid: 15377, port: 58706 IP: 192.168.205.2
+hop: 1, router: 1
+hop: 2, router: 4
+hop: 3, router: 2
+hop: 4, router: 5
+hop: 5, router: 3
+new-fake-diffe-hellman, router index: 1, circuit outgoing: 0x01, key: 0x34373167303862323065303863363236
+pkt from port: 42580, length: 3, contents:0x630100
+incoming extend-done circuit, incoming: 0x01 from port: 42580
+new-fake-diffe-hellman, router index: 4, circuit outgoing: 0x01, key: 0x31323462353d67373560353d66333733
+pkt from port: 42580, length: 3, contents:0x630100
+incoming extend-done circuit, incoming: 0x01 from port: 42580
+new-fake-diffe-hellman, router index: 2, circuit outgoing: 0x01, key: 0x37343264333b61313366333b60353135
+pkt from port: 42580, length: 3, contents:0x630100
+incoming extend-done circuit, incoming: 0x01 from port: 42580
+new-fake-diffe-hellman, router index: 5, circuit outgoing: 0x01, key: 0x30333563343c66363461343c67323632
+pkt from port: 42580, length: 3, contents:0x630100
+incoming extend-done circuit, incoming: 0x01 from port: 42580
+new-fake-diffe-hellman, router index: 3, circuit outgoing: 0x01, key: 0x36353365323a60303267323a61343034
+pkt from port: 42580, length: 3, contents:0x630100
+incoming extend-done circuit, incoming: 0x01 from port: 42580
+ICMP from tunnel: src: 192.168.16.129, dst: 128.30.2.155, type: 8
+pkt from port: 42580, length: 163, contents:0x6401002291fae1fe3ed4ca696984579f10f4d0b28196cb771ea7dc7ffecf528f861ca8184131c441f56242bf5f05de1cffafa376d32b5790ab5b617a2c3aa3fc5cdd611b591111205ca3f893e3fa854c4ba45675ce9bec0589a91d35f85b4e2dfe7cbedb2894997737d95472b749b3d4c0748839598bf44c2de35916f567ba85fedf5fae0748b97202de74aa928dec6af6aa611a64a89b1c11e9a3
+incoming packet, circuit incoming: 0x01, src: 128.30.2.155, dst: 192.168.16.129
+ICMP from tunnel: src: 192.168.16.129, dst: 128.30.2.155, type: 8
+pkt from port: 42580, length: 163, contents:0x6401005ae8527ae0e8e1231a1cd65b408027c767db8874b791b7cf5ba48f30e0f542f4473cc7a5748d164c61a603e5d8dbf766f50e35117dcf3486a417c4832bc8585be59342feff6db530b825474b76ca88e57fd8aeb5d5d1447393741dceee1085e31dd3305860c0566d6e6ccb5efb6111173081ca8a235c1118f3084424e6d7ec6359501a6ec3e0a7ee8888716459db686d3239d36b596c4f4d816eb3
+incoming packet, circuit incoming: 0x01, src: 128.30.2.155, dst: 192.168.16.129
+ICMP from tunnel: src: 192.168.16.129, dst: 128.30.2.155, type: 8
+pkt from port: 42580, length: 163, contents:0x640100266e9fd4481319ff09611956ae39532fb4e3a227339645f6e07066dfbca20322394a39aaa7ae04940faad77b97d4989c4d7450f3ee6a60258e04bfd45b72d5e2aafd9463965f81bcf64157de73b391cba76c451f5e16fba3ae829c16459025cd7e3c7ff1543b778b30f28f92bddb0b21a44b5b33e103cd4a88f2565f2d54341bd4c20143c3d8950746e61f4877e0ce284c484b62b8498fe814e3
+incoming packet, circuit incoming: 0x01, src: 128.30.2.155, dst: 192.168.16.129
+ICMP from tunnel: src: 192.168.16.129, dst: 128.30.2.155, type: 8
+pkt from port: 42580, length: 163, contents:0x640100822f24eb438a9fc6a1ffe2c4c729d1da85b8b91278129c2aadd36f8dc6222556fc7b754600b58cfc6d2ea569f92fd74f7c92c4e19111720a89cffb51f4061b7fd84a6cdea1798324f186cd874ca84cc3eee30c1eaf4be3e11f23ea0ae62d96ae7bb2df632e6bca1d458a5572eaf786267e64c9cba1298f9fe1459f20b724ef9389dfe0facef1206a7f6fadbf31e1b502ff0bd93a61d36b9
+incoming packet, circuit incoming: 0x01, src: 128.30.2.155, dst: 192.168.16.129
+ICMP from tunnel: src: 192.168.16.129, dst: 128.30.2.155, type: 8
+pkt from port: 42580, length: 163, contents:0x64010010b64e2ede57a10b420e029985681ee29236f3f92e9ae047adbbc35cc48f9250c5f5f2f080119418955b88c9047ecab3ddff53b1d9e2977a424d5bfd334d6c593996eef4199703ca695c0678068fabb8adc7dcf256244dbcb7d37eb8c6fea1eacdf98b7d6ac6874bbe1ab299e5cfbab66baf8267e5a5f9575a5573cce8f16ec82a20287dd5c1c231efa4f0508dffa2e57e11c47936749a322332e7
+incoming packet, circuit incoming: 0x01, src: 128.30.2.155, dst: 192.168.16.129
+ICMP from tunnel: src: 192.168.16.129, dst: 128.30.2.155, type: 8
+pkt from port: 42580, length: 163, contents:0x6401004fa9aff61872eafe556823f24be8cc8b67f6bb5ffcf7bdb721aff3725b259e477811c1ff7de4cec629299c4afd673401d64f5607a56dc18345090df4b916785510d58db71e8126f2445f8019fdf1a6ac2cd217b7bbb54ca5b79d617d48681a636bb7a8bccbb6dfc1870e3cf1589cde5cbdc70572e296c9d14c1db6210b3ff3716b293a61d1aedc6f6d613fb7bb88af6bf697169d4fff9660b383
+incoming packet, circuit incoming: 0x01, src: 128.30.2.155, dst: 192.168.16.129

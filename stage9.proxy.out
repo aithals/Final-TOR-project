@@ -1,0 +1,26 @@
+proxy port: 58387
+router: 1, pid: 20847, port: 58354 IP: 192.168.201.2
+router: 2, pid: 20848, port: 58669 IP: 192.168.202.2
+router: 3, pid: 20849, port: 52125 IP: 192.168.203.2
+router: 4, pid: 20850, port: 56637 IP: 192.168.204.2
+router: 5, pid: 20851, port: 58306 IP: 192.168.205.2
+hop: 1, router: 3
+hop: 2, router: 1
+hop: 3, router: 5
+hop: 4, router: 4
+new-fake-diffe-hellman, router index: 3, circuit outgoing: 0x01, key: 0x34616230653635353166336161373637
+pkt from port: 52125, length: 3, contents:0x630100
+incoming extend-done circuit, incoming: 0x01 from port: 52125
+new-fake-diffe-hellman, router index: 1, circuit outgoing: 0x01, key: 0x36636032673437373364316363353435
+pkt from port: 52125, length: 3, contents:0x630100
+incoming extend-done circuit, incoming: 0x01 from port: 52125
+new-fake-diffe-hellman, router index: 5, circuit outgoing: 0x01, key: 0x32676436633033333760356767313031
+pkt from port: 52125, length: 3, contents:0x630100
+incoming extend-done circuit, incoming: 0x01 from port: 52125
+new-fake-diffe-hellman, router index: 4, circuit outgoing: 0x01, key: 0x33666537623132323661346666303130
+pkt from port: 52125, length: 3, contents:0x630100
+incoming extend-done circuit, incoming: 0x01 from port: 52125
+ICMP from tunnel: src: 192.168.16.129, dst: 128.30.2.104, type: 8
+pkt from port: 52125, length: 147, contents:0x64010022be7efaec555f8f30f1a7cf9f59e5392c4607cf79b5544be9561f45d88bb4789fc23faeb5c1a6067c924f5f34cc247a7e40f85cd63cb78c87e29aa8167b70d953ad5743034c8a37892437c29213329ec417509281e43bf8aa3ecbf55fc9c97eab8a685789d441d88f33f4d2dbfe6979b4f5f3a99b4c0b2afb3cf9b4a8c483c3812cafc26c81e6a24e47bb0
+incoming packet, circuit incoming: 0x01, src: 128.30.2.104, dst: 192.168.16.129
+ICMP from tunnel: src: 192.168.16.129, dst: 128.30.2.104, type: 8
