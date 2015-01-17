@@ -1,6 +1,0 @@
-router: 2, pid: 2919, port: 35874 IP: 192.168.202.2
-pkt from port: 40640, length: 19, contents: 0x650104313b6460303364633034633b3a356337
-fake-diffie-hellman, new circuit incoming: 0x401, key: 313b6460303364633034633b3a356337
-pkt from port: 40640, length: 19, contents:0x62010447532348583273f4557f31a11dfabb31
-new extend circuit: incoming: 0x401, outgoing: 0x201, at 65535
-pkt from port: 40640, length: 99, contents: 0x6101045955991d83a5dcc76fe432e22d3a5ac76cc8a09a4cf549cbadecafffeeb56cd77f9e22151b9b33eeceb1f1667c0c2c24dd7d26968ffce6909346e124267f6e3cee285774357d47d17f882938250af7d7d0735739c0a54833bcf3

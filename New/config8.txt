@@ -1,4 +1,0 @@
-#this is a comment line, should be ignored
-stage 8
-num_routers 5
-minitor_hops 5
